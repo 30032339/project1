@@ -15,7 +15,7 @@ const games = Game.map(
               
               <h4 className="text-primary text-center">{Game.item.toString()}</h4>
               <div className="business-item-img text-center">
-              <img src={Game.image.toString()} className="img-fluid rounded" alt=""></img>
+              <img src={Game.image} className="img-fluid rounded" alt=""></img>
             </div>
             <h5 className="text-muted">{Game["main-heading"]}</h5>
             <h5>{Game["heading-1"]}</h5>
